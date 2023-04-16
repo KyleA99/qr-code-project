@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: hsl(212, 45%, 89%);
+    background-color: hsl(212deg 45% 89%);
 }
 
 * {
@@ -11,7 +11,7 @@ html {
 }
 
 p, h2 {
-    font-family: 'Outfit', sans-serif;    ;
+    font-family: Outfit, sans-serif;
 }
 
 p {
@@ -19,8 +19,7 @@ p {
 }
 
 .content-container {
-    border-radius: 5px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0deg 0% 100%);
     margin: 5rem 2rem;
     border-radius: 15px;
 }
@@ -29,7 +28,7 @@ p {
     display: flex;
     margin: 1rem;
     padding-top: 1rem;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0deg 0% 100%);
 }
 
 .qr-code-image-container img {
@@ -55,7 +54,7 @@ p {
 
 .instructions {
     font-weight: 400;
-    color: hsl(220, 15%, 55%);
+    color: hsl(220deg 15% 55%);
     margin: 1rem 0;
 }
 
