@@ -4,6 +4,10 @@ html {
     background-color: hsl(212deg 45% 89%);
 }
 
+body {
+    height: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -58,10 +62,20 @@ p {
     margin: 1rem 0;
 }
 
-/*
+@media (width >= 351px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
+    .content-container {
+        width: 287px;
+        height: auto;
+        margin: auto;
+    }
 
-/* - Mobile: 375px
-- Desktop: 1440px */
+    .qr-code-image-container img {
+        width: 255px
+    }
+}
