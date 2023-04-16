@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+    background-color: hsl(212, 45%, 89%);
 }
 
 * {
@@ -10,7 +11,7 @@ html {
 }
 
 p, h2 {
-    font-family:  [Outfit](https://fonts.google.com/specimen/Outfit);
+    font-family: 'Outfit', sans-serif;    ;
 }
 
 p {
@@ -19,11 +20,15 @@ p {
 
 .content-container {
     border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 5rem 2rem;
+    border-radius: 15px;
 }
 
 .qr-code-image-container {
     display: flex;
     margin: 1rem;
+    padding-top: 1rem;
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -39,8 +44,7 @@ p {
 }
 
 .text-content-container {
-    flex-direction: column;
-    width: 75%;
+    width: 90%;
     text-align: center;
 }
 
@@ -51,8 +55,8 @@ p {
 
 .instructions {
     font-weight: 400;
-    color: hsl(212, 45%, 89%);
-    padding: 1rem, 0, 3rem, 0;
+    color: hsl(220, 15%, 55%);
+    margin: 1rem 0;
 }
 
 /*
