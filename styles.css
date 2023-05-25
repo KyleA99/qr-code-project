@@ -1,7 +1,19 @@
+:root {
+    /* Custom-class colors */
+    --clr-primary-light-gray: hsl(212deg 45% 89%);
+    --clr-secondary-white: hsl(0deg 0% 100%);
+    --clr-secondary-gray: hsl(220deg 15% 55%);
+
+    /* Custom-class font styling */
+    --font-family-default: outfit, sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
 html {
     height: 100%;
     width: 100%;
-    background-color: hsl(212deg 45% 89%);
+    background-color: var(--clr-primary-light-gray);
 }
 
 body {
@@ -15,7 +27,7 @@ body {
 }
 
 p, h2 {
-    font-family: Outfit, sans-serif;
+    font-family: var(--font-family-default);
 }
 
 p {
@@ -23,7 +35,7 @@ p {
 }
 
 .content-container {
-    background-color: hsl(0deg 0% 100%);
+    background-color: var(--clr-secondary-white);
     margin: 5rem 2rem;
     border-radius: 15px;
 }
@@ -32,7 +44,7 @@ p {
     display: flex;
     margin: 1rem;
     padding-top: 1rem;
-    background-color: hsl(0deg 0% 100%);
+    background-color: var(--clr-secondary-white);
 }
 
 .qr-code-image-container img {
@@ -52,13 +64,13 @@ p {
 }
 
 .text-header {
-    font-weight: 700;
+    font-weight: var(--fw-bold);
     padding: 1rem 0;
 }
 
 .instructions {
-    font-weight: 400;
-    color: hsl(220deg 15% 55%);
+    font-weight: var(--fw-regular);
+    color: var(--clr-secondary-gray);
     margin: 1rem 0;
 }
 
