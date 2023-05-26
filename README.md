@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://kylea99.github.io/qr-code-project/)
+- Live Site URL: [QR-Component](https://kylea99.github.io/qr-code-project/)
 
 ### Built with
 
